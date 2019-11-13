@@ -1,4 +1,4 @@
-# vue-demo
+# vant-demo
 
 ## Project setup
 ```
@@ -15,6 +15,11 @@ npm run serve
 npm run build
 ```
 
+### Run your unit tests
+```
+npm run test:unit
+```
+
 ### Lints and fixes files
 ```
 npm run lint
@@ -22,9 +27,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### 初步使用vue3 
-vue create vue-demo 
-cd vue-demp
-npm run serve 
-npm run build
