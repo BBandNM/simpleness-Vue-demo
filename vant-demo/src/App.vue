@@ -1,15 +1,14 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div id="nav" v-if="$route.meta.keepAlive">
+      <router-link to="/">demo1</router-link> |
+      <router-link to="/demo2">demo2</router-link> |
+      <router-link to="/demo3">demo3</router-link>
     </div>
-    <login></login>
     <router-view />
   </div>
 </template>
 <script>
-
 
 </script>
 <style>
